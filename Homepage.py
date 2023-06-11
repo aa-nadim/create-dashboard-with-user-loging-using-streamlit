@@ -33,10 +33,13 @@ if authentication_status == None:
 
 if authentication_status:
 
- st.title("Main Page")
- 
+
  authenticator.logout("Logout", "sidebar")
  st.sidebar.title(f"Welcome {name}")
+
+
+ st.title("Main Page")
+ 
 
  st.sidebar.success("Select a page above.")
 
